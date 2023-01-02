@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Page</title>
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'for_result.css' %}">
+</head>
+<body>
+    <h3><strong> <em> မဟာဘုတ်ဟောကိန်း</em> </strong></h3>
+    <form action="">
+{% csrf_token %}        
+    <div>
+        <h4>{{data.top}}</h4>
+    <p class='text_p'>
+        {{data.letter}}
+    </p>
+    
+    </div>
+    <button><a href="{% url 'index' %}">Back</a></em></button>
+</form>
+<a href="{% url 'age' %}"><strong>သက်ရောက်ဟောကိန်းကြည့်ရန်
+</strong></a>
+</body>
+</html> 

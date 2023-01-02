@@ -1,0 +1,25 @@
+body{
+    background-color: pink;
+}
+.frist_div{
+    background-color:pink;
+    margin: 20px;
+    border: 5px solid gold;
+    border-radius: 15px;
+    text-align: center;
+    border: outset;
+
+}
+
+.second_div{
+    background-color: pink;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.title_p{
+    margin: 10px 50% 10px 50%;
+}
+.text_p{
+    margin: 12px;
+    text-indent: 40px;
+}
